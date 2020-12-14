@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(160deg, rgba(2,0,10,1) 25%, rgba(126,126,133,1) 50%, rgba(204,195,195,1) 100%);
+    display: block;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: block;
+    align-content: center;
+}
+
+.titulo{
+    /* color: lightgray; */
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+#init-buttons{
+    align-self: center;
+    margin: 12px;
+    font-size: 20px;
+}
+
+.servicios{
+    flex-direction: row;
+}
+
+
+.card{
+    margin: 8px;
+    margin-bottom: 16px;
+}
+.card-body{
+    font-size: 24px;
+    background-color: rgba(120,120,120);
+    font-weight: bolder;
+}
+
+.card-text{
+    font-size: 20px;
+    font-style: oblique;
+    color: rgb(240, 240, 240);
+    font-weight: normal;
+}
+
+.barra-menu{
+    background: black;
+}
